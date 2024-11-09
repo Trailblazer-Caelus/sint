@@ -149,10 +149,10 @@ public:
 - `sint operator/(const string& other) const`: Division.
 ### Arithmetic Assignment Operator Overloading
 - `sint& operator+=(const sint& other)`: Addition assignment.
-- `sint& operator+=(int other): Addition assignment.
+- `sint& operator+=(int other)`: Addition assignment.
 - `sint& operator+=(const string& other)`: Addition assignment.
 - `sint& operator-=(const sint& other)`: Subtraction assignment.
-- `sint& operator-=(int other): Subtraction assignment.
+- `sint& operator-=(int other)`: Subtraction assignment.
 - `sint& operator-=(const string& other)`: Subtraction assignment.
 - `sint& operator*=(const sint& other)`: Multiplication assignment.
 - `sint& operator*=(int other)`: Multiplication assignment.
@@ -169,7 +169,7 @@ public:
 - `sint operator|(const string& other) const`: Bitwise OR.
 - `sint operator%(const sint& other) const`: Modulo.
 - `sint operator%(int other) const`: Modulo.
-- `sint operator%(const string& other) cons`t: Modulo.
+- `sint operator%(const string& other) const`: Modulo.
 ### Bit Shift Operations
 - `sint operator<<(int shift) const`: Left shift.
 - `sint operator>>(int shift) const`: Right shift.
